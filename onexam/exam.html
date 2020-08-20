@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <center><h1 style="color:white;background-color: cornflowerblue;">AbC College</h1></center>
+<div class="container">
+    <center>
+<video id="vid1" controls style="width:80%;height:400px;"></video>
+</center>
+</div>>
+<script>
+navigator.mediaDevices.getUserMedia({
+	
+video:true
+	
+})
+.then(stream=>{
+	document.getElementById("vid1").srcObject=stream;
+})
+</script>
+
+<div class="container" style="font-size:18pt;">
+    <center>
+  <h1>Welcome to online exam</h1>
+  <p>Nessicary notice</p></center>
+  <form action="sub1.html">
+  <h3>1.This is a question</h3>
+<input type="radio">r</input><br><input type="radio">r</input><br>
+<input type="radio">r</input><br><input type="radio">r</input><br><br>
+<h3>1.This is a question</h3>
+<input type="radio">r</input><br><input type="radio">r</input><br>
+<input type="radio">r</input><br><input type="radio">r</input><br><br>
+<h3>2.This is a question</h3>
+<input type="radio">r</input><br><input type="radio">r</input><br>
+<input type="radio">r</input><br><input type="radio">r</input><br><br>
+<h3>3.This is a question</h3>
+<input type="radio">r</input><br><input type="radio">r</input><br>
+<input type="radio">r</input><br><input type="radio">r</input><br><br>
+<h3>4.This is a question</h3>
+<input type="radio">r</input><br><input type="radio">r</input><br>
+<input type="radio">r</input><br><input type="radio">r</input><br><br>
+<h3>5.This is a question</h3>
+<input type="radio">r</input><br><input type="radio">r</input><br>
+<input type="radio">r</input><br><input type="radio">r</input><br><br>
+<h3>6.This is a question</h3>
+<input type="radio">r</input><br><input type="radio">r</input><br>
+<input type="radio">r</input><br><input type="radio">r</input><br><br>
+<h3>7.This is a question</h3>
+<input type="radio">r</input><br><input type="radio">r</input><br>
+<input type="radio">r</input><br><input type="radio">r</input><br><br>
+<input type="submit" value="submit" class="btn btn-primary"/></form>
+</div>
+
+
+
+
+
+</body>
+</html>
